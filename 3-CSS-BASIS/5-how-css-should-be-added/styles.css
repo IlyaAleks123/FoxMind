@@ -1,0 +1,6 @@
+p {
+    color: blue; /* The color property changes the text color */
+    font-size: 78px; /* The font-size property changes the font size */
+    text-align: center; /* The text-align property centers the text */
+    background-color: green; /* The background-color property changes the background color */
+}
