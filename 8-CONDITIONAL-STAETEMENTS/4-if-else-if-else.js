@@ -21,20 +21,20 @@
 // }
 
 /** Usege example */
-// const productWeight = 1501;
-// let deliveryBy;
+const productWeight = 1501;
+let deliveryBy;
 
-// if(productWeight <= 3){
-//     deliveryBy = 'Public transport'
-// }
-// else if(productWeight > 3 && productWeight <= 200){
-//     deliveryBy = 'Car';
-// }
-// else if(productWeight > 200 && productWeight <= 1500){
-//     deliveryBy = 'Minibus';
-// }
-// else{
-//     deliveryBy = 'Truck';
-// }
+if(productWeight <= 3){
+    deliveryBy = 'Public transport'
+}
+else if(productWeight > 3 && productWeight <= 200){
+    deliveryBy = 'Car';
+}
+else if(productWeight > 200 && productWeight <= 1500){
+    deliveryBy = 'Minibus';
+}
+else{
+    deliveryBy = 'Truck';
+}
 
-// console.log(deliveryBy);
+console.log(deliveryBy);
