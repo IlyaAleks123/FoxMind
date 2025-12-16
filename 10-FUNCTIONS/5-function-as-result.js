@@ -11,9 +11,10 @@ function mul(num1, num2){
 function sub(num1, num2){
     return num1 - num2;
 }
+
  function div(num1, num2){
     return num1 / num2;
- }
+}
 
  /** whatToDo will return a function */
  function whatToDo(operation){

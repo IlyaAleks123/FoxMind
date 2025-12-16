@@ -8,17 +8,18 @@
 //  const result = factorial(5);
 //  console.log(result);
 
- let summa = function(num1, num2){
-    if (num1 < 0 || num2 < 0) {
-        throw new Error("Аргумент не может быть отрицательным")
-    }
-    return num1 + num2;
- }
+//  let summa = function(num1, num2){
+//     if (num1 < 0 || num2 < 0) {
+//         throw new Error("Аргумент не может быть отрицательным")
+//     }
+//     return num1 + num2;
+//  }
  
- try{
-   const result = summa(15, 35);
-   console.log(result);
- }
- catch(error){
-    console.log(error.message);
-}
+//  try{
+//    const result = summa(15, 35);
+//    console.log(result);
+//  }
+//  catch(error){
+//     console.log(error.message);
+// }
+
